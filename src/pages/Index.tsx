@@ -2,6 +2,8 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Courses } from "@/components/Courses";
 import { About } from "@/components/About";
+import { Team } from "@/components/Team";
+import { Gallery } from "@/components/Gallery";
 import { Certifications } from "@/components/Certifications";
 import { TechTools } from "@/components/TechTools";
 import { Contact } from "@/components/Contact";
@@ -14,6 +16,8 @@ const Index = () => {
       <Hero />
       <Courses />
       <About />
+      <Team />
+      <Gallery />
       <Certifications />
       <TechTools />
       <Contact />
