@@ -41,6 +41,18 @@ export const Navbar = () => {
               Nosotros
             </button>
             <button
+              onClick={() => scrollToSection("conocenos")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Conócenos
+            </button>
+            <button
+              onClick={() => scrollToSection("galeria")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Galería
+            </button>
+            <button
               onClick={() => scrollToSection("contacto")}
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -81,6 +93,18 @@ export const Navbar = () => {
               className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
             >
               Nosotros
+            </button>
+            <button
+              onClick={() => scrollToSection("conocenos")}
+              className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
+            >
+              Conócenos
+            </button>
+            <button
+              onClick={() => scrollToSection("galeria")}
+              className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
+            >
+              Galería
             </button>
             <button
               onClick={() => scrollToSection("contacto")}
